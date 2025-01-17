@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build DEB package
-        uses: DevChall-by-SDCY-and-VXM/debian-buildpackage-template@v0.0.5
+        uses: DevChall-by-SDCY-and-VXM/debian-buildpackage-template@v0.0.6
       
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
